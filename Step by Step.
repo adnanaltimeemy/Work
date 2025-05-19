@@ -1,0 +1,118 @@
+Here is a full example of what you might do and write when contributing to the [First Contributions](https://github.com/firstcontributions/first-contributions) project using the command line:
+
+---
+
+### 🧾 **Step-by-Step Commands & Code**
+
+#### 1. **Fork the repository**
+
+Go to: [https://github.com/firstcontributions/first-contributions](https://github.com/firstcontributions/first-contributions)
+Click the **Fork** button on the top right.
+
+---
+
+#### 2. **Clone the forked repository**
+
+```bash
+git clone https://github.com/<your-username>/first-contributions.git
+cd first-contributions
+```
+
+Replace `<your-username>` with your actual GitHub username.
+
+---
+
+#### 3. **Create a new branch**
+
+```bash
+git checkout -b add-john-doe
+```
+
+---
+
+#### 4. **Edit the `Contributors.md` file**
+
+Open the file in a text editor, e.g.:
+
+```bash
+nano Contributors.md
+```
+
+Add your name like this (scroll to the end or find a good spot alphabetically):
+
+```md
+- John Doe
+```
+
+Save and close the file.
+
+---
+
+#### 5. **Stage and commit the change**
+
+```bash
+git add Contributors.md
+git commit -m "Add John Doe to Contributors list"
+```
+
+---
+
+#### 6. **Push your branch to GitHub**
+
+```bash
+git push origin add-john-doe
+```
+
+---
+
+#### 7. **Create a Pull Request**
+
+Go to your fork on GitHub:
+[https://github.com/](https://github.com/)<your-username>/first-contributions
+
+GitHub will prompt you to **Compare & pull request**.
+
+Click the button and fill out the PR form like this:
+
+---
+
+### ✅ **Pull Request Title**
+
+```
+Add John Doe to Contributors list
+```
+
+---
+
+### 💬 **Description**
+
+```markdown
+### What
+This pull request adds my name, John Doe, to the Contributors list in the Contributors.md file.
+
+### Why
+This is my first contribution to an open-source project. I'm following the First Contributions tutorial to learn the GitHub flow.
+
+### How
+- Forked the repo
+- Cloned it locally
+- Created a branch
+- Added my name
+- Committed the change with a clear message
+- Pushed the branch
+- Opened this pull request
+
+### Before and After
+- Before: My name was not listed in Contributors.md
+- After: My name is listed among the contributors
+
+### Label
+- Documentation
+
+### Notes
+This PR uses accessible, input-agnostic language following Microsoft's accessibility guidelines.
+```
+
+---
+
+Let me know if you'd like this rewritten using **your actual name** or a **different file change** instead!
