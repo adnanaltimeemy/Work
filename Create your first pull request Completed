@@ -1,0 +1,24 @@
+### What
+This pull request adds my name, John Doe, to the Contributors list in the Contributors.md file.
+
+### Why
+This is my first contribution to an open-source project. I'm following the First Contributions tutorial to learn the GitHub flow.
+
+### How
+- Forked the repo
+- Cloned it locally
+- Created a branch
+- Added my name
+- Committed the change with a clear message
+- Pushed the branch
+- Opened this pull request
+
+### Before and After
+- Before: My name was not listed in Contributors.md
+- After: My name is listed among the contributors
+
+### Label
+- Documentation
+
+### Notes
+This PR uses accessible, input-agnostic language following Microsoft's accessibility guidelines.
